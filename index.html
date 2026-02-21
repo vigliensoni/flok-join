@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script>
+    const slug = Math.random().toString(36).slice(2, 10);
+    const config = window.location.hash; // carries #targets=...&c0=...
+    window.location.replace("https://flok.cc/s/" + slug + config);
+  </script>
+</head>
+<body>Redirecting...</body>
+</html>
